@@ -936,8 +936,23 @@
         "signature": "bb2c211f1e480ec4458fd23220b26789f25b8963bda85e6d28931866ef16c604",
         "affectsGlobalScope": false
       },
+      "../src/home/home.tsx": {
+        "version": "7408687c682fc48eccaa436f76800ed472366957947fee78ffbe279d0deed00c",
+        "signature": "cf768e3071eabc9fb7e30e542506158c0d4a1bb5fe0fbeaa9fb8eb1d445966b1",
+        "affectsGlobalScope": false
+      },
+      "../src/p1/p1.tsx": {
+        "version": "b5afa6a33f12ab1855bc937a158f54d385bcc6390f4441a922565238b63b0465",
+        "signature": "0b302c637eb154a9c1e2e9340beb3b01c1cb2c96b100a6fe6d2610bbb668946f",
+        "affectsGlobalScope": false
+      },
+      "../src/p2/p2.tsx": {
+        "version": "c487d5da167f4226e7e377c63be31f754cc9afa3521f1c38e8345449e52f6b76",
+        "signature": "10ce75919fa56f0b9aec6aeb5df5fb5678e4ceca5c9271389c78ee4520e9790c",
+        "affectsGlobalScope": false
+      },
       "../src/index.tsx": {
-        "version": "07fa74a681260a61b3c410860f2a6f9b089c73e8d26e1546d729794a1c8eba60",
+        "version": "a877d6fa3f5b36a3f11c5c92080cb596cbfd4aa6cee776b2c2b964093fa53d9b",
         "signature": "1d718b0153bdcd004326fa3ecd0bb1fd90857c3a585991c660faea15fb327776",
         "affectsGlobalScope": false
       },
@@ -1530,11 +1545,23 @@
         "../node_modules/@types/node/path.d.ts",
         "../node_modules/dotenv/types/index.d.ts"
       ],
+      "../src/home/home.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
       "../src/index.tsx": [
         "../node_modules/@types/react-router-dom/index.d.ts",
         "../node_modules/@types/react/index.d.ts",
         "../node_modules/react-feather/dist/index.d.ts",
+        "../src/home/home.tsx",
+        "../src/p1/p1.tsx",
+        "../src/p2/p2.tsx",
         "../src/util.ts"
+      ],
+      "../src/p1/p1.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/p2/p2.tsx": [
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/util.ts": [
         "../node_modules/@types/react-dom/index.d.ts"
@@ -2073,6 +2100,15 @@
         "../node_modules/schema-utils/declarations/ValidationError.d.ts",
         "../node_modules/webpack/node_modules/tapable/tapable.d.ts"
       ],
+      "../src/home/home.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/p1/p1.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/p2/p2.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
       "../webpack.config.ts": [
         "../node_modules/webpack/types.d.ts"
       ]
@@ -2271,7 +2307,10 @@
       "../node_modules/webpack/node_modules/tapable/tapable.d.ts",
       "../node_modules/webpack/types.d.ts",
       "../server.ts",
+      "../src/home/home.tsx",
       "../src/index.tsx",
+      "../src/p1/p1.tsx",
+      "../src/p2/p2.tsx",
       "../src/util.ts",
       "../webpack.config.ts"
     ]
