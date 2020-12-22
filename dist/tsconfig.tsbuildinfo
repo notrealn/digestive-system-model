@@ -482,8 +482,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/express/index.d.ts": {
-        "version": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
-        "signature": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
+        "version": "924732dfbdfd120ee07cf733c7c65018f24ce9ddf06ed9ccf3cad8fdc2e33585",
+        "signature": "924732dfbdfd120ee07cf733c7c65018f24ce9ddf06ed9ccf3cad8fdc2e33585",
         "affectsGlobalScope": false
       },
       "../server.ts": {
@@ -841,6 +841,11 @@
         "signature": "48898ae92f69da7c502d7484944ecd545ee8aa74d11402a69fec0dc4bd375014",
         "affectsGlobalScope": false
       },
+      "../node_modules/@types/webpack-dev-server/node_modules/@types/express/index.d.ts": {
+        "version": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
+        "signature": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@types/connect-history-api-fallback/index.d.ts": {
         "version": "bbfbe0c906eaac5a661232c334955878c9ed1f14421694c5d6ba500b05040a37",
         "signature": "bbfbe0c906eaac5a661232c334955878c9ed1f14421694c5d6ba500b05040a37",
@@ -937,7 +942,7 @@
         "affectsGlobalScope": false
       },
       "../src/home/home.tsx": {
-        "version": "7408687c682fc48eccaa436f76800ed472366957947fee78ffbe279d0deed00c",
+        "version": "ee3bd9aaa60ed3c7210933b051b666b7ddf27c0b41445d885c16868c95e2f8a0",
         "signature": "cf768e3071eabc9fb7e30e542506158c0d4a1bb5fe0fbeaa9fb8eb1d445966b1",
         "affectsGlobalScope": false
       },
@@ -1320,12 +1325,18 @@
       ],
       "../node_modules/@types/webpack-dev-server/index.d.ts": [
         "../node_modules/@types/connect-history-api-fallback/index.d.ts",
-        "../node_modules/@types/express/index.d.ts",
         "../node_modules/@types/http-proxy-middleware/index.d.ts",
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/https.d.ts",
         "../node_modules/@types/serve-static/index.d.ts",
+        "../node_modules/@types/webpack-dev-server/node_modules/@types/express/index.d.ts",
         "../node_modules/webpack/types.d.ts"
+      ],
+      "../node_modules/@types/webpack-dev-server/node_modules/@types/express/index.d.ts": [
+        "../node_modules/@types/body-parser/index.d.ts",
+        "../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../node_modules/@types/qs/index.d.ts",
+        "../node_modules/@types/serve-static/index.d.ts"
       ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/index.d.ts",
@@ -1887,6 +1898,12 @@
         "../node_modules/@types/serve-static/index.d.ts",
         "../node_modules/webpack/types.d.ts"
       ],
+      "../node_modules/@types/webpack-dev-server/node_modules/@types/express/index.d.ts": [
+        "../node_modules/@types/body-parser/index.d.ts",
+        "../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../node_modules/@types/qs/index.d.ts",
+        "../node_modules/@types/serve-static/index.d.ts"
+      ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
@@ -2207,6 +2224,7 @@
       "../node_modules/@types/terser-webpack-plugin/index.d.ts",
       "../node_modules/@types/uglify-js/index.d.ts",
       "../node_modules/@types/webpack-dev-server/index.d.ts",
+      "../node_modules/@types/webpack-dev-server/node_modules/@types/express/index.d.ts",
       "../node_modules/@types/webpack-sources/index.d.ts",
       "../node_modules/@types/webpack-sources/lib/CachedSource.d.ts",
       "../node_modules/@types/webpack-sources/lib/CompatSource.d.ts",
